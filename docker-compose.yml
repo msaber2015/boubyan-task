@@ -1,0 +1,10 @@
+version: '2'
+services:
+  boubyan-task:
+    container_name: task
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mohamedsaberfcih/boubyan-task:v1.0.0
+    ports:
+      - 8085:8085

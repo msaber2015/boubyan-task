@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:memory:testDb?cache=shared
+    username: task
+    password: task
+
+jwt:
+  expiration-in-minutes: 5
+  Key-secret: 2a101010nsEKHrMMLV1pfqOj18Kz0uFT4eyfDeO0XsLbX9e4EfbLnipU1m5iO
+

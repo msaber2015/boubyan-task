@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: 1234
+
+jwt:
+  expiration-in-minutes: 5
+  Key-secret: 2a101010nsEKHrMMLV1pfqOj18Kz0uFT4eyfDeO0XsLbX9e4EfbLnipU1m5iO
